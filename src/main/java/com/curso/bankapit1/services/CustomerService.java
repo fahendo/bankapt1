@@ -14,9 +14,9 @@ public class CustomerService {
 
     // Injetando as dependencias necessárias
     @Autowired  // Autoinjeta uma dependencia (Cria um construtor sozinho)
-    CustomerRepo customerRepo;
+    private CustomerRepo customerRepo;
 
-    //Todo: Salvar um novo cliente
+    //Done: Salvar um novo cliente
     public Customer createCustomer(Customer customer){
 
         // Tratando possiveis erros ao gravar um novo cliente
@@ -31,7 +31,7 @@ public class CustomerService {
         return customer;
     }
 
-    //Todo: Buscar um cliente por ID
+    //Done: Buscar um cliente por ID
     public Customer findCustomerById(Integer customerId){
 
         //Criando elemento vazio para receber uma busca
@@ -51,7 +51,7 @@ public class CustomerService {
 
     }
 
-    //Todo: Buscar todos os clientes
+    //Done: Buscar todos os clientes
     public List<Customer> findAllCustomer(){
 
         //Criando um array vazio
