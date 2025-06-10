@@ -10,6 +10,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 import java.util.UUID;
 
+//Comentario na classe Bankapit1Application.java
+// Projeto: Bank API T1
+// Autor: Fabio Henrique
+// Data: 2025-06-10
+// Descricao: Realizando um teste para tratitica de conflito entre branches e autores diferentes
+
 @SpringBootApplication
 public class Bankapit1Application {
 
