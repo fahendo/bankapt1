@@ -1,0 +1,52 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Bank App</title>
+</head>
+<body>
+<h1>Bem-vindo(a) ao Bank API</h1>
+
+<hr>
+<h3>Clientes</h3>
+<ul>
+    <li><a href="/json/customers">Visualizar Todos os Clientes: /json/customers</a></li>
+    <p></p>
+
+    <li><a href="/json/customers/1">Visualizar um Cliente por ID: /json/customers/umId</a></li>
+    <p></p>
+
+    <li>Criar Conta para um Cliente: /json/accounts/create</li>
+    <p>Exemplo de Body: {"name": "Joaquim José", "cpf": "000.000.000-00"}</p>
+</ul>
+
+<hr>
+<h3>Contas</h3>
+<ul>
+    <li><a href="/json/accounts">Visualizar todas as Contas: /json/accounts</a></li>
+    <p></p>
+
+    <li><a href="/json/accounts/umNumDeConta">Visualizar um Número de Conta: /json/accounts/umNumDeConta</a></li>
+    <p></p>
+
+    <li>Criar novo Cliente: /json/accounts/create/idCliente</li>
+    <p>Indicar o Id do cliente no último fragmento URI.</p>
+</ul>
+
+<hr>
+<h3>Transações</h3>
+<ul>
+    <li>Efetuar Deposito em uma Conta: /json/transactions/deposit</li>
+    <p>Exemplo de Body: {"acNumber": "umNumDeConta", "amount": 500.0}</p>
+    <p></p>
+
+    <li>Efetuar Saque em uma Conta: /json/transactions/withdraw</li>
+    <p>Exemplo de Body: {"acNumber": "umNumDeConta", "amount": 100.0}</p>
+    <p></p>
+
+    <li><a href="/json/transactions/umNumDeConta">Visualizar todas as Transações de uma Conta: /json/transactions/umNumDeConta</a></li>
+</ul>
+<hr>
+</body>
+</html>

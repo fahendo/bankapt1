@@ -41,7 +41,7 @@ public class Bankapit1Application {
 		//customerService.createCustomer(customerB);
 
 		//Buscando Clientes
-		//customerService.findCustomerById(1);
+		customerService.findCustomerById(1);
 		//Buscando todos os clientes
 		//customerService.findAllCustomer();
 
