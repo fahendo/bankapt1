@@ -1,0 +1,12 @@
+2025-06-18 09:41:39.328238-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ACCOUNT"; expected "ALTER, ANALYZE"; SQL statement:
+ACCOUNT [42001-232]
+2025-06-18 09:41:43.546282-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]ACCOUNT"; expected "ALTER, ANALYZE"; SQL statement:
+ACCOUNT [42001-232]
+2025-06-18 09:41:47.335792-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "[*]TIPO_TRANSACAO"; expected "TRUNCATE"; SQL statement:
+TIPO_TRANSACAO [42001-232]
+2025-06-18 09:41:56.599899-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "SELECT * FROM TRANSACOES TIPO_TRANSACAO [*]ACCOUNT"; SQL statement:
+SELECT * FROM TRANSACOES TIPO_TRANSACAO ACCOUNT [42000-232]

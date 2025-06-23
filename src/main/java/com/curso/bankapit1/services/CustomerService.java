@@ -52,10 +52,10 @@ public class CustomerService {
     }
 
     //Done: Buscar todos os clientes
-    public List<Customer> findAllCustomer(){
+    public ArrayList<Customer> findAllCustomers(){
 
         //Criando um array vazio
-        List<Customer> customers = new ArrayList<>();
+        ArrayList<Customer> customers = new ArrayList<>();
 
         //Populando o array com o conteudo do banco
         customerRepo.findAll().forEach(customers::add);
