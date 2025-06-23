@@ -41,7 +41,7 @@ public class Bankapit1Application {
 		//customerService.createCustomer(customerB);
 
 		//Buscando Clientes
-		customerService.findCustomerById(1);
+		//customerService.findCustomerById(1);
 		//Buscando todos os clientes
 		//customerService.findAllCustomer();
 
@@ -58,7 +58,7 @@ public class Bankapit1Application {
 
 		//transactionService.withdraw(UUID.fromString("9f00076e-5459-4332-af5d-d8f66be1b04c"), 200.0f);
 
-		transactionService.listTransactionsByAccount(UUID.fromString("9f00076e-5459-4332-af5d-d8f66be1b04c"));
+		//transactionService.listTransactionsByAccount(UUID.fromString("9f00076e-5459-4332-af5d-d8f66be1b04c"));
 	}
 
 }
